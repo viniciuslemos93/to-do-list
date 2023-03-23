@@ -39,7 +39,7 @@ A ideia é que seja possível:
 * Exibir contadores: Total de tarefas, Tarefas concluídas e Não concluídas
 
 
-### Deploy:
+### Deploy: https://to-do-list-rho-seven.vercel.app/
 
 &#xa0;
 
