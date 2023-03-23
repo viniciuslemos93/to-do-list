@@ -1,9 +1,12 @@
 import './TodoForm.css'
 
 
-import React from 'react'
+import React, { useState } from 'react'
 
 const TodoForm = () =>  {
+
+  const [text, setText] = useState(null)
+
   const addTask = () => {
     console.log('Teste Função')
     
@@ -13,8 +16,8 @@ const TodoForm = () =>  {
     <div>
         <h1>To Do List</h1>
         <div>
-          <input className='addTask shadow' type="text" />
-          <button className='btnAddTask shadow' onClick={addTask}>Adicionar</button>
+          <input className='addTask shadow' type="text" onChange={(e) => setText(e.target.value)} />
+          <button className='btnAddTask shadow' onClick={ () => console.log(text)}>Adicionar</button>
         </div>
     </div>
   )
