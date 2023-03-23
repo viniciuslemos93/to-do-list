@@ -1,70 +1,100 @@
-# Getting Started with Create React App
+<h1 align="center">To Do List - React</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**<p align="center">Sumário</p>**
+<p align="center">
+<a href="#dart-sobre">Sobre</a> &#xa0; | &#xa0;
+<a href="#computer-tecnologias">Tecnologias</a> |
+<a href="#books-O-que-eu-aprendi">O que aprendi</a> &#xa0; 
+</p>
+<p align="center">
+<a href="#hammer_and_wrench-serviços">Serviços</a> &#xa0; | &#xa0;
+<a href="#scroll-rodando-o-projeto">Rodando o projeto</a> &#xa0; | &#xa0;
+<a href="#sparkles-autor">Autor</a>
+</p>
 
-## Available Scripts
+<p align="center">
+<img src="https://img.shields.io/badge/Status-Em%20desenvolvimento-blue"/>
+</p>
 
-In the project directory, you can run:
+&#xa0;
+ 
+## :dart: Sobre
+<p>Esta aplicação de um To Do List é fruto de um teste técnico para uma vaga de Frontend.</p>
+A ideia é que seja possível:
 
-### `npm start`
+* Listar Todas as Tarefas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* Listar as tarefas ainda não concluídas
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* Listar as tarefas já concluídas
 
-### `npm test`
+* Marcar determinada tarefa como concluída (Mostrar visualmente que foi concluída)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Inserir novas tarefas
 
-### `npm run build`
+* Alterar a descrição de uma tarefa
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Excluir tarefa da lista
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* Exibir contadores: Total de tarefas, Tarefas concluídas e Não concluídas
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### Deploy:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+&#xa0;
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## :computer: Tecnologias
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+* [React](https://pt-br.reactjs.org/)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+* [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 
-## Learn More
+* [CSS](https://www.w3schools.com/css/)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* [JavaScript](https://www.javascript.com/)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+&#xa0;
 
-### Code Splitting
+## :hammer_and_wrench: Serviços
+* <a href="https://github.com/">GitHub</a>
+* <a href="https://vercel.com/">Vercel</a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+&#xa0;
 
-### Analyzing the Bundle Size
+## :books: O que eu aprendi?
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+📌 Trabalhar com componentes no React.
 
-### Making a Progressive Web App
+📌 Utilização de Hooks | UseState.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+&#xa0;
 
-### Advanced Configuration
+## :scroll: Rodando o projeto
+É necessário ter instalado o NodeJs.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```bash
+# Clone este repositório
+git clone https://github.com/viniciuslemos93/to-do-list.git
 
-### Deployment
+# Acesse a pasta do projeto no terminal/cmd
+cd to-do-list
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+# Instale as dependências
+npm install
 
-### `npm run build` fails to minify
+# Após a instalação das dependências, pode iniciar a aplicação através do seguinte comando:
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Acesse o endereço: (http://localhost:3000) para acessar a aplicação em seu navegador
+```
+
+&#xa0;
+<h4>Desenvolvido por Vinicius Lemos</h4>
+
+<a href="https://github.com/viniciuslemos93">
+<img src="https://github.com/viniciuslemos93.png" width="150px" alt="Imagem do autor">
+</a>
+
+&#xa0;
+
+[![Linkedin Badge](https://img.shields.io/badge/-Vinicius%20Lemos-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/viniciuslemos93/)](https://www.linkedin.com/in/viniciuslemos93/)<br>
